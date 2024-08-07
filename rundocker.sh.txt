@@ -1,0 +1,10 @@
+#!/bin/bash
+docker start mydatabase
+docker start mybackend 
+docker start myfrontend 
+docker inspect mynetwork1
+docker port mybackend 
+docker port myfrontend 
+
+
+

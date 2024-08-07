@@ -1,0 +1,14 @@
+
+FROM mysql:latest
+
+
+ENV MYSQL_ROOT_PASSWORD=bahgat\
+    MYSQL_DATABASE=clinic \
+    MYSQL_USER=admin \
+    MYSQL_PASSWORD=bahgat
+
+
+EXPOSE 3306
+
+
+CMD ["mysqld"]
